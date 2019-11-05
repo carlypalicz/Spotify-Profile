@@ -1,0 +1,113 @@
+body {
+  background-color: #181818;
+  font-family: proxima-nova, sans-serif;
+  font-weight:100;
+}
+
+h1{
+  font-family: proxima-nova-condensed, sans-serif;
+  font-weight: 800;
+  font-size: 42px;
+  margin: auto;
+}
+
+h2{
+  font-family: proxima-nova-condensed, sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.App {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-right p {
+  padding: 0 50px 0 50px;
+  font-size: 20px;
+}
+
+.section{
+  padding: 50px 0 0 0;
+}
+
+.section h1{
+  text-align: left;
+}
+
+.artist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.artist div {
+  width: 180px;
+}
+.artist img {
+  width: 150px;
+  height: 150px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+tr{
+  border-bottom: 1px solid #666;
+}
+
+td {
+    font-size: 14px;
+}
+
+th{
+  font-family: proxima-nova-condensed, sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #999;
+}
+
+
+th, td {
+  padding: 12px 15px;
+}
+
+th:first-child, td:first-child {
+  padding-left: 0; 
+}
+
+th:last-child, td:last-child {
+  padding-right: 0; 
+}
+
+.content{
+  width: 250px;
+}
+
+.login {
+  text-decoration: none;
+  padding: 12px;
+  background: #1db954;
+  color: #fff;
+  width: 100px;
+  font-family: proxima-nova,sans-serif;
+  border-radius: 20px;
+  font-size: .85em;
+}
+
+.login-container{
+  margin: 45px;
+}
+
